@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+22 - April - 2022
+Rezha Satria SP
+10119281
+IF7
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Presenter.InputActivity"
+    android:layout_gravity="center"
+    android:orientation="horizontal"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    >
+    <LinearLayout
+        android:id="@+id/title_add_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:layout_margin="20dp"
+            android:id="@+id/kembali"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/addMyNotes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#222223"
+            android:textSize="25sp"
+            android:paddingTop="15dp"
+
+            android:text="Tambah Note"/>
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/input_judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#222223"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/title_add_bar"
+        android:hint="Judul"
+        tools:ignore="DuplicateIds" />
+
+    <EditText
+        android:id="@+id/input_kategori"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#222223"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/input_judul"
+        android:hint="Kategori" />
+
+    <EditText
+        android:id="@+id/input_isi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/input_kategori"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Tulis Catatanmu"
+        android:inputType="textMultiLine|textCapSentences"
+        android:minHeight="200dp"
+        android:textColor="#222223" />
+
+    <Button
+        android:id="@+id/btn_simpan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/input_isi"
+        android:backgroundTint="#247881"
+        android:text="Simpan"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btn_apus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/input_isi"
+        android:layout_marginTop="70dp"
+        android:backgroundTint="#DDDDDD"
+        android:text="Hapus"
+        android:textColor="#222223" />
+
+
+
+
+</RelativeLayout>

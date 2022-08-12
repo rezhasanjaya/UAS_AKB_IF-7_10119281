@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "392716367476",
+    "project_id": "login-mahasiswa-2566e",
+    "storage_bucket": "login-mahasiswa-2566e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:392716367476:android:72820006fde2d1e5c6c321",
+        "android_client_info": {
+          "package_name": "com.akbuas_10119281"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "392716367476-p5477ncc2rhr1gikkbbap92les8o475j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDUytHBHn5aJSWcPSTgkZTgkdagabIS3M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "392716367476-p5477ncc2rhr1gikkbbap92les8o475j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:392716367476:android:fff8c2d4525d66bec6c321",
+        "android_client_info": {
+          "package_name": "com.example.login_mahasiswa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "392716367476-p5477ncc2rhr1gikkbbap92les8o475j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDUytHBHn5aJSWcPSTgkZTgkdagabIS3M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "392716367476-p5477ncc2rhr1gikkbbap92les8o475j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+22 - April - 2022
+Rezha Satria SP
+10119281
+IF7
+-->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".View.Profile"
+    android:layout_marginRight="30dp"
+    android:layout_marginLeft="30dp">
+    <TextView
+        android:id="@+id/page2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="10dp"
+        android:text="Page 2 of 2"
+        android:textColor="#222223"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+       android:layout_marginTop="250dp"
+        android:paddingBottom="20dp"
+        android:text="AKBUAS"
+        android:textColor="#222223"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/textbiasa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcome"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="15dp"
+        android:text="Adalah Aplikasi Android Pengelola Catatan, Anda Bisa Mencatat, Edit Catatan, Dan Hapus, Serta Mengetahui Tanggal Mencatat Catatan Tersebut"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/biasa2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textbiasa"
+        android:layout_alignParentStart="true"
+        android:text="Mari Mencatat Hal Penting"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
